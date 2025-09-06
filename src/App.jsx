@@ -12,7 +12,7 @@ function AppContent() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
-      <div className="w-full max-w-4xl mx-auto p-6 md:p-10 shadow-md rounded-2xl border border-green-500 bg-neutral-900">
+      <div className="w-full max-w-4xl mx-auto shadow-md rounded-2xl border border-green-500 bg-neutral-900">
           <h1 className="text-3xl font-bold text-green-400 mb-4">Music App</h1>
           <p className="text-gray-300 mb-4">Logged in as: {user.role}</p>
 
